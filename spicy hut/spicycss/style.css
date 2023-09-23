@@ -1,0 +1,120 @@
+
+
+
+
+
+
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing{
+    background-image: url(../media/ss.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+    header a{
+        text-decoration: none;
+        color: red;
+    }
+header{
+    display: flex;
+    padding: 1em;
+}
+#logo{
+
+    flex: 7;
+    
+    font-size: 2em;
+}
+nav{
+    flex: 2;
+    display: flex;
+}
+nav a{
+    flex:1;
+    position:relative;
+
+}
+nav a:hover{
+    color: blue;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding: 2em;
+    margin-top: 1em;
+
+}
+.fine{
+    color: rgb(5, 159, 57);
+    font-size: 2.5em;
+    font-weight: bold;
+    
+}
+.fresh{
+    color: black;
+    font-weight: bold;
+    margin-top: 1em;
+    
+}
+.call{
+    font-weight: bold;
+    margin-top: 1em;
+}
+button{
+    width: 20vw;
+    padding:.5em;
+    margin-top: 1em;
+    background-color: rgb(222, 158, 211);
+    border-radius: 10px ;
+
+}
+button:hover{
+    background-color: rgb(30, 219, 34);
+}
+#menu{
+    color: yellowgreen;
+    display: flex;
+    justify-content: center;
+}
+.table{
+    color: wheat;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+
+}
+.scroll{
+    background: linear-gradient(to right,rgb(172, 29, 29),rgb(30, 30, 36) 80%);
+}
+th{
+    color: blue;
+}
+table{
+    width: 100%;
+    padding: 2em;
+}
+.table tr{
+    display: flex;
+    margin-top: .8em;
+    justify-content: center;
+    
+}
+.table td:nth-child(1){
+    flex: 1;
+    justify-self: left;
+}
+.table td:nth-child(2){
+    justify-self: right;
+}
+
+
+    
+
+

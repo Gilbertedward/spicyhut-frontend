@@ -1,0 +1,16 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "../htmlcss"
+        },
+        {
+            "path": "../javascript intro"
+        }
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "spicy hut"
+    }
+}
